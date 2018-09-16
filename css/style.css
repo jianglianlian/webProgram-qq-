@@ -1,0 +1,373 @@
+/*QQ音乐头部开始*/
+        @font-face {
+            font-family: 'icomoon1';
+            src:  url('../ico/fonts/icomoon.eot?exrrno');
+            src:  url('../ico/fonts/icomoon.eot?exrrno#iefix') format('embedded-opentype'),
+            url('../ico/fonts/icomoon.ttf?exrrno') format('truetype'),
+            url('../ico/fonts/icomoon.woff?exrrno') format('woff'),
+            url('../ico/fonts/icomoon.svg?exrrno#icomoon') format('svg');
+            font-weight: normal;
+            font-style: normal;
+        }
+.qq_top{
+    position: relative;
+    height: 142px;
+}
+.qq_innertop{
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+.qq_logo{
+    position: absolute;
+    left: 0;
+    top: 22px;
+}
+.qq_logo img{
+    width: 170px;
+    height: 46px;
+}
+.qq_nav{
+    position: absolute;
+    left: 198px;
+    top: 0;
+}
+.qq_nav_item{
+    float: left;
+    margin-right: -5px;
+}
+.qq_nav_link{
+    display: block;
+    height: 90px;
+    line-height: 90px;
+    padding: 0 20px;
+    font-size: 18px;
+}
+.qq_nav_active{
+    background: #31c27c;
+    color: #fff;
+}
+.qq_nav_second{
+    height: 51px;
+    line-height: 51px;
+    padding-left: 230px;
+    border-top: 1px solid #f5f5f5;
+    position: absolute;
+    left: 0;
+    top: 90px;
+}
+.qq_second_item{
+    float: left;
+    font-size: 15px;
+    color: #c1c1c1;
+    margin-right: 47px;
+}
+.qq_second_active{
+    color: #31c27c;
+}
+.qq_search{
+    position: absolute;
+    top: 0;
+    right: 284px;
+}
+.qq_search_input{
+    height: 36px;
+    line-height: 36px;
+    margin-top: 26px;
+    border: 1px solid #c9c9c9;
+    padding: 0 33px 0 11px;
+    border-radius: 3px;
+    position: relative;
+}
+.qq_input_text{
+    width: 178px;
+    height: 36px;
+    border: 1px none;
+    outline: none;
+}
+.qq_search_btn{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 38px;
+    height: 36px;
+    border: 0 none;
+}
+.qq_search_hotword{
+    position: absolute;
+    left: 0;
+    top: 63px;
+    width: 222px;
+    border: 1px solid #c9c9c9;
+    background: #fff;
+    display: none;
+    z-index: 3;
+}
+.qq_hot_list{
+    padding: 5px 0;
+}
+.qq_hot_link{
+    display: block;
+    height: 36px;
+    line-height: 36px;
+}
+.search_history{
+    display: inline-block;
+    height: 36px;
+    line-height: 36px;
+    margin-left: 11px;
+    color: #999;
+}
+.search_clear{
+    display: inline-block;
+    float: right;
+    margin-right: 11px;
+}
+.search_number{
+    color: #ff4222;
+    width: 18px;
+    display: inline-block;
+    margin-left: 11px;
+}
+.search_watch{
+    color: #999;
+    display: inline-block;
+    float: right;
+    margin-right: 11px;
+}
+.qq_service{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 90px;
+    line-height: 90px;
+}
+.qq_login{
+    display: inline-block;
+    float: left;
+    width: 38px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+.qq_green{
+    display: inline-block;
+    height: 38px;
+    line-height: 38px;
+    border: 1px solid #31c27c;
+    font-size: 13px;
+    color: #fff;
+    background: #31c27c;
+    padding: 0 9px;
+    border-radius: 3px;
+}
+.qq_pay{
+    display: inline-block;
+    height: 38px;
+    line-height: 38px;
+    border: 1px solid #c9c9c9;
+    font-size: 13px;
+    padding: 0 9px;
+    border-radius: 3px;
+    margin-left: 10px;
+}
+/*a标签hover事件*/
+.qq_nav_link:hover{
+    color: #31c27c;
+}
+.qq_nav_active:hover{
+    background: #31c27c;
+    color: #fff;
+}
+.qq_second_link:hover{
+    color: #31c27c;
+}
+.qq_search_btn:hover{
+    color: #31c27c;
+    cursor: pointer;
+}
+.qq_hot_list li:hover{
+    background: #31c27c;
+}
+.qq_hot_list li:hover span{
+    color: #fff;
+}
+.qq_login:hover{
+    color: #31c27c;
+}
+.qq_green:hover{
+    background-color: #2caf6f;
+    border-color: #2caf6f;
+    color: #fff
+}
+.qq_pay:hover{
+    background: #ededed;
+}
+/*字体图标*/
+.qq_btn_ico{
+      font-family: 'icomoon1';
+      font-size: 18px;
+      font-style: normal;
+}
+.search_clear{
+    font-family: 'icomoon1';
+    font-size: 18px;
+    font-style: normal;
+}
+/*QQ音乐头部结束*/
+
+
+
+/*QQ音乐歌单推荐开始*/
+.qq_songList{
+    background: #F3F3F3;
+    position: relative;
+}
+.qq_mainSong{
+    width: 1200px;
+    margin: 0 auto;
+}
+.song_listName{
+    padding-top: 4.16667%;
+    padding-bottom: 2%;
+    position: relative;
+}
+.list_name{
+    display: block;
+    width: 196px;
+    height: 40px;
+    margin: 0 auto;
+}
+.song_listName .list_name span{
+    font-size: 30px;
+    display: inline-block;
+    margin-left: 13px;
+}
+.qq_listTab{
+    height: 50px;
+    text-align: center;
+}
+.list_tab_item{
+    display: inline-block;
+    margin: 0 24px;
+    font-size: 15px;
+}
+.list_tab_active{
+    color: #31c27c;
+}
+.song_list_listen{
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.listen_active{
+    display: block;
+}
+.listen_hide{
+    display: none;
+}
+.tab_list{
+    width: 1250%;
+    height: 310px;
+    /*background: red;*/
+    transition: margin-left 2s;
+}
+.list_tab{
+    float: left;
+    width: 240px;
+    position: relative;
+}
+/*清除li浮动*/
+.tab_list:after{
+    display: block;
+    clear: both;
+    content: "";
+    visibility: hidden;
+    height: 0;
+}
+.list_tab img{
+    width: 224px;
+}
+.song_title{
+    display: block;
+    width: 224px;
+    margin-top: 8px;
+    line-height: 22px;
+    max-height: 44px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.watch_number{
+    color: #999;
+    display: block;
+    
+}
+.hide_play{
+    width: 224px;
+    height: 224px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.1);
+    display: none;
+}
+.hide_play img{
+    display: block;
+    width: 70px;
+    margin-left: 77px;
+    margin-top: 77px;
+}
+.button_switch{
+    width: 1200px;
+    margin: 20px auto 0;
+    text-align: center;
+}
+.js_switch{
+    display: inline-block;
+    width: 28px;
+    height: 12px;
+    padding: 0 0 26px;
+    margin: 0 1px;
+}
+.circle{
+    display: block;
+    width: 8px;
+    height: 8px;
+    border-radius: 12px;
+    background-color: rgba(0,0,0,0.1);
+}
+.switch_active{
+    background-color: rgba(0,0,0,0.3);
+}
+.slide_left{
+    position: absolute;
+    left: 0;
+    top: 200px;
+    width: 75px;
+    height: 108px;
+    /*background: red;*/
+}
+.slide_right{
+    position: absolute;
+    right: 0;
+    top: 200px;
+    width: 90px;
+    height: 108px;
+}
+/*a标签hover事件*/
+.list_tab_item:hover{
+    color: #31c27c;
+}
+.song_title:hover{
+    color: #31c27c;
+}
+.watch_number:hover{
+    cursor: text;
+}
+.list_tab:hover .hide_play{
+    display: block;
+}
+
+.circle:hover{
+    background-color: rgba(0,0,0,0.3);
+}
+/*QQ音乐歌单推荐结束*/

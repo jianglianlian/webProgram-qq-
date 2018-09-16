@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: Arial;
+}
+.right{
+    content: '';
+    display: block;
+    clear: both;
+}
+.box{
+    width: 100%;
+    background-color: #ddd;
+}
+.head{
+    width: 100%;
+    height: 95px;
+    /*border: 1px solid #000;*/
+    text-align: center;
+   
+}
+.nav{
+    width: 100%;
+    height: 50px;
+    /*border: 1px solid #000;*/
+    text-align: center;
+}
+.head h2{
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 95px;
+    color: #333;
+
+}
+.nav a{
+    color: #333;
+    font-size: 15px;
+    text-align: center;
+    margin: 0 24px;
+}
+.nav a:hover{
+    color: #31c27c;
+}
+
+.nav .right{
+    /*border: 1px solid #000;*/
+    position: absolute;
+    right: 0;
+}
+.playlist-1,.playlist-2, .playlist-3, .playlist-4{
+    /*border: 1px solid #000;*/
+    width: 1220px;
+    height: 616px;
+    display: none;
+    margin: 0 auto;
+}
+.playlist-1 a ,.playlist-2 a, .playlist-3 a, .playlist-4 a{
+    display: block;
+    width: 224px;
+    height: 283px;
+    /*border: 1px solid #000;*/
+    float: left;
+    margin-right: 20px;
+}
+.playlist-1 img,.playlist-2 img, .playlist-3 img, .playlist-4 img{
+    width: 224px;
+    height: 224px;
+}
+.playlist-1 li span,.playlist-2 li span, .playlist-3 li span,.playlist-4 li span{
+    display: block;
+    width: 224px;
+    /*border: 1px solid #000;*/
+    font-size: 14px;
+    color: #999;
+}
+ .banner{
+     position: relative;
+ }
+ .bottom ul{
+     position: absolute;
+     left: 50%;
+     bottom: 23px;
+     margin-left: -80px;
+ }
+ .bottom ul a {
+     width: 160px;
+     display: block;
+ }
+.bottom li{
+    width: 8px;
+    height: 8px;
+    background-color: #ddd;
+    border-radius: 50%;
+    float: left;
+    margin-right: 28px;
+}
+ /*.point img:hover{*/
+    /*background: url("images/point.png");*/
+    /*width: 70px;*/
+    /*height: 70px;*/
+    /*position: absolute;*/
+    /*left: 50%;*/
+    /*top: 50%;*/
+    /*margin: -35px;*/
+/*}*/
+
+

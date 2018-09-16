@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.k_main{
+    width: 100%;
+    background-color: #f3f3f3;
+}
+.k_inner{
+    width: 1200px;
+    height: 418px;
+    margin: 0 auto;
+    background-color: #f2f2f2;
+    position: relative;
+}
+.k_inner_tit{
+    text-align: center;
+    padding-top:50px;
+    font-size: 20px;
+}
+#div1{
+    width: 1200px;
+    height: 236px;
+    margin-top: 30px;
+}
+#div2{
+    width: 590px;
+    height: 236px;
+    float: left;
+}
+#div3{
+    width: 590px;
+    height: 236px;
+    float: right;
+}
+#div1 img{
+    width: 100%;
+}
+.k_inner span{
+    display: inline-block;
+    position: absolute;width: 80px;
+    height: 110px;
+    background:rgba(0,0,0,.1);
+    font-size: 30px;
+    line-height: 110px;
+    text-align: center;
+    cursor: pointer;
+    color: black;
+}
+span:hover{
+    background:rgba(0,0,0,.3);
+    color:black;
+}
+span#L{
+    left: -80px;
+    top: 183px;
+}
+span#R{
+    right: -80px;
+    top: 183px;
+}
+#div1 #ul{
+    position: absolute;
+    bottom: 15px;
+    left: 550px;
+    width: 150px;
+    height: 20px;
+}
+#div1 #ul li{
+    list-style: none;
+    float: left;
+    height: 10px;
+    width: 10px;
+    border-radius: 10px;
+    background:rgba(0,0,0,.1);
+    margin-right: 20px;
+    cursor: pointer;
+}
+#div1 #ul .active{
+    background:rgba(0,0,0,.3);
+}

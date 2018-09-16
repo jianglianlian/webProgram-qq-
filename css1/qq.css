@@ -1,0 +1,204 @@
+.new-music {
+    background: url("../images/background.jpg") 50% 0 repeat-x;
+    position: relative;
+}
+.li-inner {
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+    /*z-index: 3;*/
+}
+.li-inner h2 {
+    display: block;
+    margin: 0 auto;
+    width: 196px;
+    height: 40px;
+    padding: 50px 0 24px 0;
+    color: #333;
+    text-align: center;
+}
+.li-go {
+    position: absolute;
+    left: 0;
+    top: 100px;
+    width: 130px;
+    height: 40px;
+    box-sizing: border-box;
+    border: 1px solid #c9c9c9;
+}
+.li-go:hover {
+     background: #ededed;
+ }
+.li-go a {
+    display: block;
+    color: #000;
+    width: 128px;
+    height: 38px;
+    text-align: center;
+    line-height: 40px;
+    font-size:14px ;
+}
+.li-go a span{
+    font-family: icomoon;
+    color: #999999;
+    font-size: 16px;
+    margin-right:10px ;
+}
+.li-kind {
+    height: 50px;
+    text-align: center;
+}
+.li-kind a {
+    display: inline-block;
+    font-size: 15px;
+    margin: 0 24px;
+    color: #333;
+}
+.li-kind a:hover {
+    color: #31c27c;
+}
+.li-music {
+    width: 1200px;
+    height: 380px;
+    overflow: hidden;
+    position: relative;
+}
+.li-music .li-look {
+    width: 6000px;
+    height: 333px;
+    margin-left: 0px;
+}
+.li-music ul{
+    float: left;
+    width: 1200px;
+    height: 333px;
+}
+.li-music li {
+    float: left;
+    height: 100px;
+    width: 400px;
+    padding-top: 11px;
+}
+.li-music li:nth-child(4) div,.li-music li:nth-child(5) div,.li-music li:nth-child(6) div{
+    height: 98px;
+    width: 370px;
+    border-bottom:1px solid #f2f2f2;
+    border-top: 1px solid #f2f2f2;
+}
+.li-music li>div{
+    margin: 0 30px 13px 0;
+}
+.li-music li>div>a {
+    position: relative;
+    height: 90px;
+    width: 90px;
+    overflow: hidden;
+}
+.li-music li>div>a span{
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -35px;
+    width: 70px;
+    height: 70px;
+    background: url("../images/cover.png") no-repeat;
+    background-size:70px 70px;
+    opacity: 0;
+}
+.li-music li>div>a:hover span {
+    opacity: 1;
+    transform: scale(.7) translateZ(0);
+    transition-property: opacity,transform;
+    transition-duration: .75s;
+}
+.li-music li>div>a:hover img {
+    transform: scale(1.2);
+    transition: transform .75s;
+}
+.li-music li div h3 {
+    font-size: 14px;
+    padding: 21px 0 2px 10px;
+    max-width: 50%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+.li-music li div p {
+    max-width: 50%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding-left: 10px;
+    font-size: 14px;
+}
+.li-music li div p a {
+    color: #999;
+}
+.li-music li div p a:hover {
+    color: #31c27c;
+}
+.li-music li div h3 a{
+    color: #333;
+}
+.li-music li div h3 a:hover {
+    color: #31c27c;
+}
+.li-music li>div>a {
+    float: left;
+}
+.li-button {
+    width: 120px;
+    position: absolute;
+    top: 360px;
+    left: 50%;
+    margin-left: -60px;
+    padding-top: 10px;
+}
+.li-button span {
+    margin: 0 11px;
+    display: block;
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    background: #e5e5e5;
+    float: left;
+}
+.li-button span a {
+    display: block;
+    height: 8px;
+    width: 8px;
+}
+.li-button span:hover {
+    background: #b2b2b2;
+}
+.new-music>.div {
+    /*display: block;*/
+    height: 110px;
+    width: 80px;
+    position: absolute;
+    top: 50%;
+    margin-top: -40px;
+    text-align: center;
+    line-height: 110px;
+    background: rgba(0,0,0,.05);
+    color: #333333;
+    display: none;
+    cursor: pointer;
+}
+.new-music>.div:hover {
+    background: rgba(0,0,0,.15);
+}
+.new-music:hover>.div {
+    display: block;
+}
+.new-music>.div:nth-child(3){
+    right: 0;
+}
+.new-music .div span {
+    font-family: icomoon;
+    font-size: 50px;
+    cursor: pointer;
+}
